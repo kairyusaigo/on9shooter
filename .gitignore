@@ -1,0 +1,10 @@
+.DS_Store
+Assembly-CSharp-Editor.csproj
+Assembly-CSharp-firstpass.csproj
+Assembly-CSharp.csproj
+Network.sln
+Network.userprefs
+Output/
+Temp/
+obj/
+Library/

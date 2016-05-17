@@ -117,10 +117,8 @@ public class PlayerShooting : MonoBehaviour
         // Perform the raycast against gameobjects on the shootable layer and if it hits something...
         if(Physics.Raycast (shootRay, out shootHit, range, shootableMask))
         {
-			Debug.Log ("hit enemy");
             // Try and find an EnemyHealth script on the gameobject hit.
             EnemyHealth enemyHealth = shootHit.collider.GetComponent <EnemyHealth> ();
-			Debug.Log (enemyHealth);
             // If the EnemyHealth component exist...
             if(enemyHealth != null)
             {
